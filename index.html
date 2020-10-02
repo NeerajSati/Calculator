@@ -13,7 +13,7 @@
 
 <fieldset id="container">
 
-<form name="calculator">
+<form name="calculator" id="calculator">
 
 <input id="display" type="text" name="display" readonly>
 
@@ -41,8 +41,8 @@
 
 <br>
 
-<input id="clearButton" class="button" type="button" value="C" onclick="calculator.display.value = ''">
-<input class="button digits" type="button" value="0" onclick="calculator.display.value += '0'">
+<input id="clearButton" class="button" type="button" value="C" >
+<input class="button digits" type="button" value="0" onclick="calculator.display.vue += '0'">
 <input class="button mathButtons" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
 
 <input class="button mathButtons" type="button" value="/" onclick="calculator.display.value += '/'">
